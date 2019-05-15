@@ -1,0 +1,11 @@
+@mixin showborder {
+  border: 2px solid $placeholder-outline;
+  background-color: $placeholder-color;
+  box-sizing: border-box;
+}
+
+@mixin header {
+  font-family: 'Spectral';
+  font-weight: bolder;
+  font-style: normal;
+}

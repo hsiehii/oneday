@@ -1,0 +1,31 @@
+{
+  "name": "oneday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon main.js --ignore 'client/*'",
+    "seed": "node lib/scripts/runSeed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.20",
+    "mongoose-bcrypt": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "dotenv": "^7.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
